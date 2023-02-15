@@ -1,0 +1,219 @@
+*body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+/* nav section start*/
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgba(255, 144, 14, 0.1);
+  }
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+  }
+  .logo {
+    width: 7rem;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  .logo-title{
+    font-size: 2em;
+    font-weight: bold;
+  }
+  .items {
+    display: flex;
+    list-style: none;
+  }
+  .item {
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 19px;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+  }
+  /* nav section end*/
+
+  /* banner start */
+  .brand{
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(255, 144, 14, 0.1);
+    justify-content: center;
+    align-items: center;
+  }
+  .brand-text{
+    width:45rem;
+   }
+   .brand-title{
+    font-size: 3em;
+    font-weight: bold;
+    margin-left: 10rem;
+   }
+   .brand-par{
+    color: #727272;
+   }
+   .brand-btn{
+    background-color:orange;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin-left: 12rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+   }
+  .brand-img{
+    width: 70rem;
+    height: 43rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  /* banner end */
+
+  /* quick team start */
+  .quick-team{
+    display: flex;
+    margin-top: 5rem;
+    padding: 5rem 5rem;
+    width: 70rem;
+    margin: 0 auto;
+  }
+  .quick-img{
+    display: flex;
+
+  }
+  .image{
+    width: 18rem;
+  }
+ .quick-title{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: 10rem;
+ }
+ .grey{
+  color: #727272;
+ }
+ .orange{
+  color: darkgoldenrod;
+ }
+ .quick-btn{
+  background-color:violet;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+    padding: 10px 40px;
+    border-radius: 10px;
+    margin: 1rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+   }
+ 
+  /* quick team end */
+
+  /* feature start */
+  .features{
+    display: flex;
+    width: 100%;
+    padding:1rem;
+    margin: 1rem;
+    background-color:  rgba(255, 144, 14, 0.1);
+  }
+  .feature-text{
+    width: 50rem;
+  }
+  .feature-img{
+    width: 50rem;
+  }
+  .feature-btn{
+    padding: 2rem 4rem;
+    margin-left: -4rem;
+    margin-top: -12rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color:white;
+    background-color: coral;
+    border: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.7);
+  }
+  .span{
+    font-size: 4rem;
+    font-weight: bold;
+  }
+  .feature-div{
+    display: flex;
+    flex-direction: column;
+    
+  }
+  .feature-div-1{
+    border: 1px solid wheat;
+    background-color:white;
+    width: 40rem;
+    height: 10rem;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .feature-title{
+    font-size: 3rem;
+    /* margin-left: 30px; */
+    border-left: 5px solid orangered;
+  }
+  .feature-par{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  /* feature end */
+
+  /* media query style */
+  /* mobile device */
+  @media screen and (max-width:688px){
+    .nav-container,
+     .logo-container,
+     .items
+    {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 20px;
+    }
+   .brand{
+    flex-direction: column;
+    width: 20rem;
+   }
+   .brand-img{
+    width: 25rem;
+   }
+   .quick-team{
+    flex-direction: column;
+   }
+  .quick-img{
+    flex-direction: column;
+  }
+  .features{
+    flex-direction: column;
+    width: 8rem;
+  }
+  .feature-img{
+    width: 5%;
+  }
+}
+  @media screen and (max-width:992px) and (min-width:688px){
+      .nav-container, .logo-container,.items{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px 20px;
+      }
+    }
