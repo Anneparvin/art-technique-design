@@ -157,7 +157,7 @@
     border: 1px solid wheat;
     background-color:white;
     width: 40rem;
-    height: 10rem;
+    height: 12rem;
     padding: 1rem;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -319,7 +319,20 @@ h2{
     }
    .brand{
     flex-direction: column;
-    width: 20rem;
+    width: none;
+   }
+   .brand-text{
+    width:fit-content;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+   }
+   .brand-title{
+    font-size: 2em;
+    margin-left:15px;
+   }
+   .brand-btn{
+    margin-left: 3rem;
    }
    .brand-img{
     width: 25rem;
@@ -332,10 +345,16 @@ h2{
   }
   .features{
     flex-direction: column;
-    width: 8rem;
+    width:50px;
+  }
+  .feature-text{
+    width: 5%;
   }
   .feature-img{
-    width: 5%;
+    width:5%;
+  }
+  .hide{
+    display: none;
   }
 }
   @media screen and (max-width:992px) and (min-width:688px){
