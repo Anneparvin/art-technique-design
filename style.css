@@ -246,6 +246,64 @@
     margin-bottom: 30px;
   }
   /* sponsors end */
+  /* portfolio start */
+
+h1 {
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.portfolio{
+  text-align: center;
+  margin-top: 60px;
+}
+
+.half-width {
+    width: 50%;
+    height: 500px;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+
+.half-width img {
+    width: 80%;
+}
+.orange-color{
+    color: orange;
+}
+.link-button {
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 15px;
+    padding: 20px 50px;
+    text-decoration: none;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+}
+  /* portfolio end */
+  /* footer start */
+  .footer{
+    width: 100%;
+    margin: auto;
+    height: 5rem;
+    background: rgba(255, 144, 14, 0.1);
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    justify-items: center;
+    align-items: center;
+    padding: 20px 20px;
+    text-align: center;
+   
+  }
+  /* footer end */
 
   /* media query style */
   /* mobile device */
